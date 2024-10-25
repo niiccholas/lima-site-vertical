@@ -150,10 +150,10 @@ header nav ul{
     padding-right: 50px;
 }
 
-
-
 #perola{
-    background-color: lightskyblue;
+    background-image: url(./img/fundoperola.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #ametista{
