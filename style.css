@@ -288,7 +288,7 @@ header nav ul {
 
 #garnet img {
     height: 67vh;
-    padding-left: 15vw;
+    padding-left: 25vw;
     padding-right: 10vw;
 }
 
@@ -364,7 +364,7 @@ header nav ul {
 
     #garnet img {
         height: 55vh;
-        padding-left: 5vw;
+        padding-left: 20vw;
         padding-right: 0vw;
     }
 
@@ -373,7 +373,7 @@ header nav ul {
     }
 
     #perola img {
-        padding-left: 1vh;
+        padding-left: 20vh;
         height: 50vh;
         padding-right: 5vw;
     }
