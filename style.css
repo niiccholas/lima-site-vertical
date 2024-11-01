@@ -38,6 +38,7 @@ header nav a{
     padding: 8px;
 }
 
+
 header{
     background-color: #333;
     padding: 16px;
@@ -236,8 +237,8 @@ header nav ul{
 
 #ametista h3{
     text-align: left;
-    color: #674477;
-    -webkit-text-stroke-width: 0.5px;
+    color: #744c87e2;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     line-height: 1.8vw;
     font-size: 2.8vh;
@@ -252,7 +253,7 @@ header nav ul{
 
 #garnet{
     display: flex;
-    background-image: url(./img/fundogarnet.png);
+    background-image: url(./img/fundogarnet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -279,7 +280,7 @@ header nav ul{
 
 #garnet h3{
     text-align: left;
-    color: #e20063;
+    color: #d80231;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: #3d0431;
     line-height: 1.8vw;
@@ -303,4 +304,76 @@ header nav ul{
     color: red;
     -webkit-text-stroke-width: 0;
     
+}
+
+@media (max-width: 1200px){
+    #steven h3, #perola h3, #garnet h3, #ametista h3{
+        line-height: normal;
+    }
+    #inicio .fundo{
+        background-size: cover;
+        background-position: center;
+        border-radius: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #inicio .container{
+        width: fit-content;
+        height: fit-content;
+        padding: 2vh;
+    }
+    #inicio .container h1{
+        font-size: larger;
+    }
+    #inicio .container h3{
+        font-size: large;
+    }
+    #steven .fundo{
+        background-position: center;
+        background-size: cover;
+    }
+    #steven h1{
+        font-size: 2.5vh;
+        padding-right: 1vh;
+        padding-bottom: 1vh;
+    }
+    #steven h3{
+        font-size: 1.8vh;
+        line-height:normal;
+    }
+    #steven img{
+        padding-left: 1vh; 
+        height: 40vh;
+        padding-right: 3vh;
+     }
+     #ametista img{
+        padding-left: 1vh; 
+        height: 55vh;
+        padding-right: 1vh;
+        padding-top: 2vw;
+    }
+    #garnet img{
+        height: 55vh;
+        padding-left: 5vw;
+        padding-right: 0vw;
+    }
+    #garnet h3{
+        padding-right: 1vw;
+    }
+    #garnet{
+        background-position: 51% 50%;
+    }
+    #perola img{
+        padding-left: 1vh;
+        height: 50vh;
+        padding-right: 5vw;
+    }
+    #perola .container{
+        padding-left: 2vh;
+    }
+    header nav a{
+        color: white;
+        padding: 6px;
+    }
 }
