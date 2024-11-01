@@ -1,19 +1,21 @@
+/* Reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul, ol, li{
+ul, ol, li {
     list-style: none;
 }
 
-/* fim do reset */
+/* Fim do reset */
 
+/* Fontes */
 @font-face {
     font-family: 'crystaluniverse';
     src: url('./font/CrystalUniverse-Regular.ttf') format('truetype');
@@ -21,25 +23,13 @@ ul, ol, li{
     font-style: normal;
 }
 
-html, body{
+/* Elementos básicos */
+html, body {
     scroll-behavior: smooth;
 }
 
-
-
-header nav a:hover{
-    padding: 8px;
-    color: rgb(255, 0, 0);
-    transition: 0.65s;
-}
-
-header nav a{
-    color: white;
-    padding: 8px;
-}
-
-
-header{
+/* Header */
+header {
     background-color: #333;
     padding: 16px;
     width: 100vw;
@@ -49,23 +39,34 @@ header{
     font-size: small;
 }
 
-header nav ul{
+header nav a {
+    color: white;
+    padding: 8px;
+}
+
+header nav a:hover {
+    padding: 8px;
+    color: rgb(255, 0, 0);
+    transition: 0.65s;
+}
+
+header nav ul {
     display: flex;
     justify-content: space-between;
 }
 
-
-.grupo{
+/* Sessão inicial */
+.grupo {
     height: 100vh;
 }
 
-#inicio{
+#inicio {
     padding: 50px;
     padding-top: 100px;
-    background-image: linear-gradient(#2896dd, #c0f6fb)
+    background-image: linear-gradient(#2896dd, #c0f6fb);
 }
 
-#inicio .fundo{
+#inicio .fundo {
     width: 100%;
     height: 100%;
     background-image: url(./img/inicio.webp);
@@ -78,7 +79,7 @@ header nav ul{
     padding: 50px;
 }
 
-#inicio .container{
+#inicio .container {
     width: 50%;
     height: 44%;
     text-align: center;
@@ -89,26 +90,26 @@ header nav ul{
     border: 7px solid rgb(228, 17, 203);
 }
 
-#inicio .container h1{
+#inicio .container h1 {
     color: rgb(125, 1, 138);
     padding: 15px;
     font-size: 2vw;
     font-family: 'crystaluniverse', sans-serif;
-    
 }
 
-#inicio .container h3{
+#inicio .container h3 {
     color: rgb(228, 17, 203);
     padding-top: 15px;
     font-size: 1vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
 }
 
-#steven{
-    background-image: linear-gradient(#c0f6fb,#c5385e);
+/* Sessão Steven */
+#steven {
+    background-image: linear-gradient(#c0f6fb, #c5385e);
 }
-#steven .fundo{
+
+#steven .fundo {
     width: 100%;
     height: 100%;
     background-image: url(./img/fundosteven.png);
@@ -118,13 +119,13 @@ header nav ul{
     align-items: center;
 }
 
-#steven img{
-   padding-left: 12vh; 
-   height: 55vh;
-   padding-right: 30vh;
+#steven img {
+    padding-left: 12vh;
+    height: 55vh;
+    padding-right: 30vh;
 }
 
-#steven .container{
+#steven .container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -133,7 +134,7 @@ header nav ul{
     padding-bottom: 10vw;
 }
 
-#steven h1{
+#steven h1 {
     font-family: 'crystaluniverse';
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #f6ff00;
@@ -142,7 +143,7 @@ header nav ul{
     font-size: 3vh;
 }
 
-#steven h3{
+#steven h3 {
     text-align: left;
     color: white;
     line-height: 1.8vw;
@@ -151,7 +152,8 @@ header nav ul{
     padding-right: 50px;
 }
 
-#perola{
+/* Sessão Pérola */
+#perola {
     display: flex;
     background-image: url(./img/fundoperola.png);
     background-repeat: no-repeat;
@@ -160,17 +162,16 @@ header nav ul{
     align-items: center;
 }
 
-#perola .container{
+#perola .container {
     width: 50vw;
     height: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 2vw;
-
 }
 
-#perola h1{
+#perola h1 {
     font-family: 'crystaluniverse';
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #efefef;
@@ -179,28 +180,28 @@ header nav ul{
     font-size: 3.5vh;
 }
 
-#perola h3{
+#perola h3 {
     text-align: left;
     color: #0df1d3;
     -webkit-text-stroke-width: 0.6px;
     -webkit-text-stroke-color: #000000;
     line-height: 1.8vw;
     font-size: 2.8vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right: 50px;
 }
 
-#perola img{
+#perola img {
     height: 60vh;
     padding-left: 15vw;
     padding-right: 10vw;
 }
 
-#ametista{
-    background-image: linear-gradient(#fbfbfb, #221922)
+/* Sessão Ametista */
+#ametista {
+    background-image: linear-gradient(#fbfbfb, #221922);
 }
 
-#ametista .fundo{
+#ametista .fundo {
     width: 100%;
     height: 100%;
     background-image: url(./img/fundoametista.png);
@@ -210,14 +211,14 @@ header nav ul{
     align-items: center;
 }
 
-#ametista img{
-    padding-left: 15vh; 
+#ametista img {
+    padding-left: 15vh;
     height: 80vh;
     padding-right: 30vh;
     padding-top: 2vw;
 }
 
-#ametista .container{
+#ametista .container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -226,7 +227,7 @@ header nav ul{
     padding-bottom: 10vw;
 }
 
-#ametista h1{
+#ametista h1 {
     font-family: 'crystaluniverse';
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #232227;
@@ -235,32 +236,29 @@ header nav ul{
     font-size: 3vh;
 }
 
-#ametista h3{
+#ametista h3 {
     text-align: left;
     color: #744c87e2;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     line-height: 1.8vw;
     font-size: 2.8vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right: 50px;
 }
 
-
-#garnet{
+/* Sessão Garnet */
+#garnet {
     background-color: rgba(128, 0, 128, 0.513);
-}
-
-#garnet{
     display: flex;
     background-image: url(./img/fundogarnet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
+    background-position: 51% 50%;
 }
 
-#garnet .container{
+#garnet .container {
     width: 40vw;
     height: 50vw;
     display: flex;
@@ -269,7 +267,7 @@ header nav ul{
     padding-right: 2vw;
 }
 
-#garnet h1{
+#garnet h1 {
     font-family: 'crystaluniverse';
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #3d0431;
@@ -278,39 +276,44 @@ header nav ul{
     font-size: 3.5vh;
 }
 
-#garnet h3{
+#garnet h3 {
     text-align: left;
     color: #d80231;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: #3d0431;
     line-height: 1.8vw;
     font-size: 2.8vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right: 50px;
 }
 
-#garnet img{
+#garnet img {
     height: 67vh;
     padding-left: 15vw;
     padding-right: 10vw;
 }
 
-#safira{
+/* Outras cores */
+#safira {
     color: rgb(41, 184, 255);
     -webkit-text-stroke-width: 0;
 }
 
-#rubi{
+#rubi {
     color: red;
     -webkit-text-stroke-width: 0;
-    
 }
 
-@media (max-width: 1200px){
-    #steven h3, #perola h3, #garnet h3, #ametista h3{
+#perola h3, #garnet h3, #steven h3, #ametista h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    #steven h3, #perola h3, #garnet h3, #ametista h3 {
         line-height: normal;
     }
-    #inicio .fundo{
+    
+    #inicio .fundo {
         background-size: cover;
         background-position: center;
         border-radius: 5vw;
@@ -318,62 +321,158 @@ header nav ul{
         align-items: center;
         justify-content: center;
     }
-    #inicio .container{
+
+    #inicio .container {
         width: fit-content;
         height: fit-content;
         padding: 2vh;
     }
-    #inicio .container h1{
+
+    #inicio .container h1 {
         font-size: larger;
     }
-    #inicio .container h3{
+
+    #inicio .container h3 {
         font-size: large;
     }
-    #steven .fundo{
+
+    #steven .fundo, #steven h1 {
         background-position: center;
         background-size: cover;
-    }
-    #steven h1{
         font-size: 2.5vh;
         padding-right: 1vh;
         padding-bottom: 1vh;
     }
-    #steven h3{
-        font-size: 1.8vh;
-        line-height:normal;
+
+    #steven h3 {
+        font-size: 2.5vh;
+        line-height: normal;
     }
-    #steven img{
-        padding-left: 1vh; 
+
+    #steven img {
+        padding-left: 1vh;
         height: 40vh;
         padding-right: 3vh;
-     }
-     #ametista img{
-        padding-left: 1vh; 
+    }
+
+    #ametista img {
+        padding-left: 1vh;
         height: 55vh;
         padding-right: 1vh;
         padding-top: 2vw;
     }
-    #garnet img{
+
+    #garnet img {
         height: 55vh;
         padding-left: 5vw;
         padding-right: 0vw;
     }
-    #garnet h3{
+
+    #garnet h3 {
         padding-right: 1vw;
     }
-    #garnet{
-        background-position: 51% 50%;
-    }
-    #perola img{
+
+    #perola img {
         padding-left: 1vh;
         height: 50vh;
         padding-right: 5vw;
     }
-    #perola .container{
+
+    #perola .container {
         padding-left: 2vh;
     }
-    header nav a{
+
+    header nav a {
         color: white;
         padding: 6px;
+    }
+}
+
+@media (max-width: 640px){
+    header {
+        background-color: #333;
+        padding: 16px;
+        width: 100vw;
+        position: fixed;
+        z-index: 1;
+        font-family: 'crystaluniverse';
+        font-size: 1.45vw
+    }
+    #inicio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10%;
+        padding-top: 20%;
+    }
+    #inicio .fundo{
+        padding: 5%;
+        width: 200%;
+        background-image: url(./img/iniciomobile.jpg);
+    }
+    #inicio .container{
+        width: 150%;
+        height: 100%;
+        opacity: 80%;
+    }
+    #inicio .container h1{
+        font-size: medium;
+        padding-bottom: 0px;
+    }
+    #inicio .container h3{
+        color: rgb(228, 17, 203);
+        padding-top: 15px;
+        font-size: 3.7vw;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #steven img{
+        height: 50vw;
+        padding-right: 1vw;
+    }
+    #steven .container{
+        width: 100%;
+    }
+    #steven .container h1{
+        font-size: 4vw;
+    }
+    #steven .container h3{
+        font-size: 3vw;
+        padding-right: 0px;
+    }
+    #perola img{
+        height: 60vw;
+        padding-right: 0vw;
+    }
+    #perola .container h3{
+        padding-right: 1vw;
+    }
+    #ametista img{
+        height: 70vw;
+        padding-right: 1vw;
+    }
+    #ametista .container{
+        width: 100%;
+        text-align: right;
+    }
+    #ametista h1 {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    #ametista .container h3{
+        font-size: 5vw;
+        padding-right: 2vw;
+    }
+    #garnet .container{
+        padding: 1vw;
+        width: 50vh;
+        padding-left: 5vw;
+    }
+    #garnet img {
+        height: 45vh;
+        padding-left: 2vw;
+        padding-right: 0vw;
+    }
+    #garnet h3 {
+        padding-right: 1vw;
     }
 }
