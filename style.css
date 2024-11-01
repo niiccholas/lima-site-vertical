@@ -183,8 +183,6 @@ header nav ul {
 #perola h3 {
     text-align: left;
     color: #0df1d3;
-    -webkit-text-stroke-width: 0.6px;
-    -webkit-text-stroke-color: #000000;
     line-height: 1.8vw;
     font-size: 2.8vh;
     padding-right: 50px;
@@ -239,8 +237,6 @@ header nav ul {
 #ametista h3 {
     text-align: left;
     color: #744c87e2;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     line-height: 1.8vw;
     font-size: 2.8vh;
     padding-right: 50px;
@@ -279,8 +275,6 @@ header nav ul {
 #garnet h3 {
     text-align: left;
     color: #d80231;
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: #3d0431;
     line-height: 1.8vw;
     font-size: 2.8vh;
     padding-right: 50px;
@@ -441,6 +435,7 @@ header nav ul {
     }
     #perola img{
         height: 60vw;
+        padding-left: 2vw;
         padding-right: 0vw;
     }
     #perola .container h3{
