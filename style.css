@@ -440,6 +440,7 @@ header nav ul {
     }
     #perola .container h3{
         padding-right: 1vw;
+        font-size: large;
     }
     #ametista img{
         height: 70vw;
@@ -450,11 +451,12 @@ header nav ul {
         text-align: right;
     }
     #ametista h1 {
+        font-size: large;
         text-align: left;
         padding-bottom: 20px;
     }
     #ametista .container h3{
-        font-size: 5vw;
+        font-size: large;
         padding-right: 2vw;
     }
     #garnet .container{
@@ -463,11 +465,12 @@ header nav ul {
         padding-left: 5vw;
     }
     #garnet img {
-        height: 45vh;
-        padding-left: 2vw;
+        height: 35vh;
         padding-right: 0vw;
+        padding-left: 0vw;
     }
     #garnet h3 {
+        font-size: large;
         padding-right: 1vw;
     }
 }
